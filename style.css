@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    background-color: rgba(216, 216, 210, 0.993);
+}
+
+label{
+    width: 50px;
+    height: 45px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+div#resultado{
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+    margin-top: 20px;
+    width: 230px;
+    height: 130px;
+    background: black;
+    color: orange;
+    border-radius: 10px;
+    box-shadow: 5px 3px 3px rgba(0, 0, 0, 0.459);
+    text-transform: uppercase;
+    font: 0.8rem serif;
+    
+}
+
+input {
+    height: 25px;
+    border-color: black;
+    border-radius: 15px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+input.botao{
+    background: black;
+    color: orange;
+    height: 35px;
+    width: 230px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.555);
+}
+
+form > h2{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+div#boximc{
+    background-color: orange;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.555);
+    border: 1px solid;
+}
